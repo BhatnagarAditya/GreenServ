@@ -1,0 +1,48 @@
+/* .App {
+  text-align: center;
+}
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.main-wrapper{
+  z-index: 3;
+  padding-top: 65px;
+  background-color: white;
+  
+  /* overflow: hidden; */
+}
+html{
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.footer-space{
+  margin-bottom: 300px;
+}
+main{
+  width:100%;
+  overflow-y: auto;
+}
+footer{
+  position: relative;
+  bottom:  0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.loader{
+  margin: 0 auto;
+}
+
+@media screen and (max-width:426px) {
+  .footer-space{
+    margin-bottom: 0;
+  }
+}
