@@ -258,7 +258,7 @@ function About() {
           </div>
           <div className="extra_out"></div>
           <div className="person3">
-            <div className="test_border">
+            {/* <div className="test_border">
               <img
                 src={Person4}
                 alt="Kuldeep Bhatnaker"
@@ -276,11 +276,11 @@ function About() {
                   <LinkedInIcon style={{ fontSize: 25, color: '#1666C2' }} />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="extra_out"></div>
           <div className="person4">
-            <div className="test_border">
+            {/* <div className="test_border">
               <img src={Person5} alt="Divyanshi Singh" className="about_img" />
             </div>
 
@@ -294,7 +294,7 @@ function About() {
                   <LinkedInIcon style={{ fontSize: 25, color: '#1666C2' }} />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
