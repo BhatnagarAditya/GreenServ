@@ -253,6 +253,7 @@ function Contact() {
                   size="large"
                   aria-label="send"
                   onClick={() => {
+                    console.log("hello")
                     if (
                       checkEmpty(userName) &&
                       checkEmpty(city) &&
